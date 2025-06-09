@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "donations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Begging.sol": "Begging"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Begging.sol": {
+			"keccak256": "0x7d3a4d61bae0ae758ecb739b79473f2998ef3b9780c85056bdc63e9899d994c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4225d91ee6f530363e204fa83bc388ab23bfd28a4f28c464e69d37bc9e5d2ea",
+				"dweb:/ipfs/QmNqaikrWf8Vdk8UrXt9v9wUmKrR2N5smb8svftcr3i8uy"
+			]
+		}
+	},
+	"version": 1
+}
