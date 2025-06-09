@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "num",
+						"type": "uint32"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RomanToInt.sol": "RomanToInt"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RomanToInt.sol": {
+			"keccak256": "0x4b4f3345951a17b16952b3177d9c86070bfb46bff4d4d4cfc5d5327420cfefb3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35934c081a6999c4e7d91b5e0db1fdebc02c5b25c57bc2b0de19447b1062ce2d",
+				"dweb:/ipfs/QmNVwSkifPi6FNz1dBt4ZRTVDc4w9dVCub32mWHetjw29Y"
+			]
+		}
+	},
+	"version": 1
+}
