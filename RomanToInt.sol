@@ -57,4 +57,36 @@ contract RomanToInt {
 
         return roman;
     } 
+
+    function romanToInt(string memory roman) public pure returns (uint64) {
+        bytes memory romanByte = bytes(roman);
+        bytes32 keckak = keccak256(abi.encodePacked(roman));
+        if (keckak == keccak256(abi.encodePacked("IV"))) {return 4;}
+        if (keckak == keccak256(abi.encodePacked("IX"))) {return 9;}
+        if (keckak == keccak256(abi.encodePacked("XL"))) {return 40;}
+        if (keckak == keccak256(abi.encodePacked("XC"))) {return 90;}
+        if (keckak == keccak256(abi.encodePacked("CD"))) {return 400;}
+        if (keckak == keccak256(abi.encodePacked("CM"))) {return 900;}
+
+        uint64 num = 0;
+        for (uint32 i = 0; i < romanByte.length; i++) {
+            if (romanByte[i] == 'M') {
+                num += 1000;
+            } else if (romanByte[i] == 'D') {
+                num += 500;
+            } else if (romanByte[i] == 'C') {
+                num += 100; 
+            } else if (romanByte[i] == 'L') {
+                num += 50;  
+            } else if (romanByte[i] == 'X') {
+                num += 10;    
+            } else if (romanByte[i] == 'V') {
+                num += 5;   
+            } else{
+                num += 1;
+            }
+        }
+
+        return num;
+    }
 }

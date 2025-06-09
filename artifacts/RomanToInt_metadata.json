@@ -23,6 +23,25 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "roman",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -53,11 +72,11 @@
 	},
 	"sources": {
 		"RomanToInt.sol": {
-			"keccak256": "0x4b4f3345951a17b16952b3177d9c86070bfb46bff4d4d4cfc5d5327420cfefb3",
+			"keccak256": "0x0e2c26458c51133cce2659a4a8d42540758a400583f288356996428500f0d33c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://35934c081a6999c4e7d91b5e0db1fdebc02c5b25c57bc2b0de19447b1062ce2d",
-				"dweb:/ipfs/QmNVwSkifPi6FNz1dBt4ZRTVDc4w9dVCub32mWHetjw29Y"
+				"bzz-raw://ba1463cd4c3598ab7d5732eff1d8e7011ed5ec7a215198d0bd6f7267d1a0485d",
+				"dweb:/ipfs/QmSxeAzJ6qSSwujxTdDiTR56Uv6g1WXcjut1YefGJBJnkQ"
 			]
 		}
 	},
